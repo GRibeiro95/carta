@@ -1,0 +1,45 @@
+body {
+    background-color: #f1e3e8;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.carta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.carta {
+    width: 60%;
+    max-width: 600px;
+    background-color: #fff;
+    border: 2px solid #d5a6bd;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transform: rotate(2deg); /* Dá um toque de estilo de carta */
+}
+
+header h1 {
+    color: #d5a6bd;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.mensagem p {
+    color: #6a4d63;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+footer p {
+    color: #d5a6bd;
+    font-size: 1.2rem;
+    margin-top: 40px;
+}
